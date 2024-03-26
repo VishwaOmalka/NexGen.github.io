@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.main-body{
+    /**background-color: rgb(148, 150, 199);**/
+    background-image: url("resources/Home\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;    
+}
+
+@font-face {
+    font-family: "Carattere";
+    src: url("fonts/Carattere-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+
+
+
+
+.title1{
+    font-family: "Carattere";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.title2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.welcome{
+    font-size: 25px;
+    font-family: "Lobster";
+}
+
+.btn1{
+    
+    display: inline-block;
+    background: hsl(229, 56%, 45%);
+    
+    color: #ebdcdc;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: #5160a5;
+    
+    transform: translateY(-10px);
+}
+
+
+.btn2{
+    
+    display: inline-block;
+    background: hsl(19, 70%, 59%);
+    
+    color: #ebdcdc;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background: #dd6651;
+    
+    transform: translateY(-10px);
+}
+
+
+.btn3{
+    
+    display: inline-block;
+    background: hsl(228, 32%, 16%);
+    
+    color: #ebdcdc;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    background: #17122c;
+    
+    transform: translateY(-10px);
+}
+
+
+.btn4{
+    
+    display: inline-block;
+    background: hsl(123, 87%, 18%);
+    
+    color: #ebdcdc;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn4:hover{
+    background: #149b1f;
+    
+    transform: translateY(-10px);
+}
+
+
+.form-control{
+    border-radius: 35px;
+}
+
+
+.btn-search{
+    color: #6c7ae0;
+}
+
+
+.a{
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
